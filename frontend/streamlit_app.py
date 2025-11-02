@@ -31,7 +31,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 # Import hybrid backend
 try:
-    from hybrid_backend import get_smart_resume
+    from backend.hybrid_backend import get_smart_resume
     HYBRID_MODE = True
     # Backend loaded successfully (no user message needed)
 except ImportError as e:
