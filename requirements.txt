@@ -1,0 +1,40 @@
+# Core web framework
+streamlit==1.28.0
+fastapi==0.104.1
+uvicorn==0.24.0
+python-multipart==0.0.6
+
+# AI and NLP
+groq==0.33.0
+keybert==0.8.1
+
+# RAG and Vector Storage
+sentence-transformers==2.2.2
+chromadb==0.4.15
+numpy==1.25.2
+
+# Document processing
+PyMuPDF==1.23.9
+python-docx==1.1.0
+pypdf2==3.0.1
+pdfminer.six==20221105
+pdfplumber==0.10.3
+
+# File generation
+reportlab==4.0.7
+fpdf2==2.7.6
+
+# Data handling
+pandas==2.1.3
+requests==2.31.0
+
+# Environment management
+python-dotenv==1.0.0
+
+# Additional utilities
+textstat==0.7.3
+scikit-learn==1.3.2
+
+# Hugging Face tokenizers (offline, reliable)
+tokenizers==0.15.0
+transformers==4.36.0
